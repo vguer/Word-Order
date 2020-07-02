@@ -25,7 +25,11 @@ This website lets a user input a block of text and returns a list of all the uni
   * Input: I love my cat and my neighbor's cat
   * Output: ---
 
-**Behavior**: Program will return a list of all the unique words entered
+**Behavior**: Program will return a list of all the words entered.
+  * Input: I love my cat and my neighbor's cat
+  * Output: I, love, my, cat, and, neighbor's
+
+**Behavior**: Program will recognize unique words entered (before returning).
   * Input: I love my cat and my neighbor's cat
   * Output: I, love, my, cat, and, neighbor's
 
