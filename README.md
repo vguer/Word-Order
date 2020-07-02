@@ -17,9 +17,21 @@ This website lets a user input a block of text and returns a list of all the uni
 
 ## Specifications
 
-**Behavior**: Program will return x if x
-  * Input: example
-  * Output: true/false
+**Behavior**: Program will display box to input block of text
+  * Input: No input needed
+  * Output: "Enter text here: "
+
+**Behavior**: Program will receive user input 
+  * Input: I love my cat and my neighbor's cat
+  * Output: ---
+
+**Behavior**: Program will return a list of all the unique words entered
+  * Input: I love my cat and my neighbor's cat
+  * Output: I, love, my, cat, and, neighbor's
+
+**Behavior**: Program will return number of times a word appears next to the list of all the unique words entered
+  * Input: I love my cat and my neighbor's cat
+  * Output: I 1, love 1, my 2, cat 2, and 1, neighbor's 1
 
 ## Known Bugs
 
