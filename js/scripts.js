@@ -3,12 +3,12 @@ $(document).ready(function() {
   event.preventDefault();
 
   const userInput = $("#input").val();
-  //const splitUserInput = userInput.split(" ");
-  //const output = [];
+  const splitUserInput = userInput.split(" ");
+  const output = [];
 
- // userInput.forEach(function(words) {
-   // output.push(words);
-  //})
-  $('#results').text(userInput);
+  splitUserInput.forEach(function(words) {
+  output.push(words);
+  })
+  $('#results').text(output);
 });
 });
