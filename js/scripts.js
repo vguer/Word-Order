@@ -5,21 +5,21 @@ $(document).ready(function() {
   const userInput = $("#input").val();
   const splitUserInput = userInput.toLowerCase().split(" ");
   const output = [];
-
-  for (i=0; i < splitUserInput.length; i++) {
-    output.push(i);
-    output[i] = finalArray(index);
-
-  }
-  function finalArray(index) {
-    
-  }
+  let duplicateList = [];
 
   splitUserInput.forEach(function(words) {
-  output.push("<li>" + words + "</li>");
-  })
-
+    output.push("<li>" + words + "</li>");
+    })
   
-  $('#results').html(output);
-});
+  function wordCounter() {
+    count = 0;
+    for (let i=0; i < output.length; i++) {
+      if (output[i] === output) {
+      } count ++;
+      duplicateList.push(count);
+    }}
+    
+  
+  $('#results').html(duplicateList);
+  });
 });
